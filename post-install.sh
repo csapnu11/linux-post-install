@@ -22,6 +22,7 @@ sudo apt install -y code
 sudo apt install -y python3-pip
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
+pipx install yt-dlp
 
 # Clean up
 echo "Cleaning up..."
